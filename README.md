@@ -27,11 +27,13 @@
     - https://test-bill.herokuapp.com/
 
 ## API spec
-
+推薦測試 ID
+Usage Account ID :504119000000
+Subscription ID :3107027728
 |Route|HTML file|Parameters|
 |-|-|-|
 |/|index.html||
-|/cost|cost.html|uid=(在index中 cost 框輸入的 Usage Account ID )|
+|/cost|cost.html|uid=(在index中 cost 框輸入的 Usage Account ID ) |
 |/amount|amount.html|uid_am=(在index中 amount 框輸入的 Usage Account ID )|
 |/amountproduct|amountproduct.html|uid_pro=(在amount中 product 框輸入的 product)|
 |/risid|risid.html|uid_sid=(在index中RI框輸入的 Usage Account ID)|
