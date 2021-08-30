@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription ID</title>
+</head>
+<body>
+    <form action='/'>
+        <button>回到首頁</button>
+    </form>
+    <form action='/risidinfo'>
+        查詢基本資料 Subscription ID:<input type="text" name="sid_info">
+        <button>提交</button>
+    </form>
+
+    <p>此 ID 擁有的 Reserved Instances Subscription ID 和基本資料:</p>
+    <pre id="json">{{data_sid}}</pre>
+
+</body>
+</html>

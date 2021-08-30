@@ -1,0 +1,7 @@
+Flask
+gunicorn
+psycopg2
+pandas
+sqlalchemy
+matplotlib
+seaborn

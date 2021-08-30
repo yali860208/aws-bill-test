@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription ID</title>
+</head>
+<body>
+    <form action='/'>
+        <button>回到首頁</button>
+    </form>
+    <p>此 Subscription ID 詳細資料:</p>
+    <pre id="json">{{data.info}}</pre>
+
+    <p>此 Subscription ID 的 instance type 和 使用情形:</p>
+    <pre id="json">{{data.instance}}</pre>
+
+    <img src="data:image/png;base64,{{data.plot}}">
+
+</body>
+</html>

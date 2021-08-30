@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>1. 查詢 Unblended Cost</p>
+    <form action='/cost'>
+        Usage Account ID:<input type="text" name="uid">
+        <button>提交</button>
+    </form>
+
+    <p>2. 查詢 Usage Amount</p>
+    <form action='/amount'>
+        Usage Account ID:<input type="text" name="uid_am">
+        <button>提交</button>
+    </form>
+
+    <p>3. 查詢 Reserved Instances</p>
+    <form action='/risid'>
+        Usage Account ID:<input type="text" name="uid_sid">
+        <button>提交</button>
+    </form>
+    <form action='/risidinfo'>
+        Subscription ID:<input type="text" name="sid_info">
+        <button>提交</button>
+    </form>
+
+</body>
+</html>

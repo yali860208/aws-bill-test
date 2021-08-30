@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amount</title>
+</head>
+<body>
+    <style type="text/css">
+    #leftbar{
+        width:45%;
+        height:100%;
+        border:1px #666 dashed;
+        margin-left:6px;
+        margin-top:5px;
+        margin-bottom:5px;
+        float:left;
+    }
+    #rightbar{
+        width:45%;
+        height:100%;
+        border:1px #666 dashed;
+        margin-left:6px;
+        margin-top:5px;
+        margin-bottom:5px;
+        float:left;
+    }
+    table, td, th {
+        border: 1px solid black;
+        text-align: center;
+    }
+    </style>
+    
+    <form action='/'>
+        <button>回到首頁</button>
+    </form>
+    
+    
+    <form action='/amountproduct'>
+        Product Name:<input type="text" name="uid_pro">
+        <button>提交</button>
+    </form>
+
+    <div id="leftbar">
+        <p>此 ID 使用的 Product 日期，總 Usage Amount:</p>
+        <pre>{{data_am.json_am}}</pre>
+    </div>
+    <div id="rightbar">
+        <p>此 ID 使用的 Product 日期，總 Normalized Usage Amount:</p>
+
+        <table id="table">
+            <tr>
+              <td>nano</td>
+              <td>0.25 倍</td>
+              <td>2xlarge</td>
+              <td>16 倍</td>
+            </tr>
+            <tr>
+              <td>micro</td>
+              <td>0.5 倍</td>
+              <td>4xlarge</td>
+              <td>32 倍</td>
+            </tr>
+            <tr>
+              <td>small</td>
+              <td>1 倍</td>
+              <td>8xlarge</td>
+              <td>64 倍</td>
+            </tr>
+            <tr>
+              <td>medium</td>
+              <td>2 倍</td>
+              <td>10xlarge</td>
+              <td>80 倍</td>
+            </tr>
+            <tr>
+              <td>large</td>
+              <td>4 倍</td>
+              <td>16xlarge</td>
+              <td>128 倍</td>
+            </tr>
+            <tr>
+              <td>xlarge</td>
+              <td>8 倍</td>
+              <td>32xlarge</td>
+              <td>256 倍</td>
+            </tr>
+          </table>
+        <pre>{{data_am.json_no}}</pre>
+    </div>
+    <div style="clear:both;"></div>
+</body>
+</html>
