@@ -23,7 +23,7 @@
 ## URL
 - GitHub repo URL
     - https://github.com/yali860208/aws-bill-test
-- Heroku app URL
+- Heroku app URL (開啟網頁可能需要數十秒的 heroku 開機時間)
     - https://test-bill.herokuapp.com/
 
 ## API spec
