@@ -20,6 +20,9 @@
 - GitHub
 - Heroku (include Heroku Postgres)
 
+## 使用資料
+https://drive.google.com/file/d/1gC4IkxArUTAu0IPJlj1YHuutxIpLU8Zm/view?usp=sharing
+
 ## URL
 - GitHub repo URL
     - https://github.com/yali860208/aws-bill-test
